@@ -1,44 +1,45 @@
-# TESA Digital Twin Tutorials
+# TESA Tutorials
 
-Welcome to the **TESA Digital Twin** tutorial series. These tutorials will guide you through setting up and using the **TESA Digital Twin** extension in Visual Studio Code to create and interact with 3D digital twin simulations.
+Welcome to the **TESA Tutorials** repository. This repository contains comprehensive tutorials for various **TESA** products and services.
+
+## Available Tutorial Series
+
+### [TESA Digital Twin Tutorials](tesa-digital-twin/README.md)
+
+Complete guide for setting up and using the **TESA Digital Twin** extension in Visual Studio Code. Learn how to:
+
+- Install the extension and configure your development environment
+- Set up secure connections to **TESA** cloud services
+- Configure MQTT credentials for real-time communication
+- Create and interact with 3D digital twin simulations
+
+> **📚 Start Here**: [TESA Digital Twin Tutorials](tesa-digital-twin/README.md)
 
 ## Overview
 
-The **TESA Digital Twin** extension brings powerful 3D simulation capabilities directly to your development environment. It enables you to:
+The **TESA** platform provides powerful tools for building industrial IoT applications and digital twin simulations. These tutorials will help you get started with:
 
-- Create and visualize 3D digital twin simulations
-- Connect to **TESA** cloud services via MQTT over TLS/WSS
-- Interact with real-time data from IoT devices and sensors
-- Build immersive 3D experiences for industrial applications
-
-## Table of Contents
-
-1. [Install the TESA Digital Twin Extension](01-install_extension/README.md)
-   - Learn how to install the **TESA Digital Twin** extension in Visual Studio Code
-   - Choose between marketplace installation or VSIX file installation
-   - Verify that the extension is properly installed and active
-
-2. [Install the CA Certificate for TESA Digital Twin](02-install-ca-certificate/README.md)
-   - Install the **CA certificate** required for secure connections to **TESA** cloud services
-   - Use the T3D CLI for automatic installation or follow manual platform-specific instructions
-   - Verify the certificate installation and troubleshoot common issues
+- **TESA Digital Twin**: 3D simulation capabilities for visualizing and interacting with IoT devices
+- **TESA Cloud Services**: MQTT over TLS/WSS connections for real-time data communication
+- **Integration Tools**: Extensions and CLI tools for seamless development workflows
 
 ## Getting Started
 
-Follow the tutorials in order to set up your development environment:
-
-1. **Start with Tutorial 1** to install the extension
-2. **Continue to Tutorial 2** to configure secure connections
-3. **Proceed to the next tutorials** (coming soon) to learn how to use the extension
+1. **Choose a Tutorial Series**: Browse the available tutorial series above
+2. **Follow the Setup Steps**: Each tutorial series includes required setup steps
+3. **Complete the Tutorials**: Follow the tutorials in order for the best experience
 
 ## Prerequisites
 
-Before starting these tutorials, make sure you have:
+General prerequisites for most tutorials:
 
 - Visual Studio Code or another VS Code-based IDE installed
 - Administrator/sudo privileges (for certificate installation)
-- Node.js 18+ installed (if using the CLI method for certificate installation)
+- Node.js 18+ installed (for CLI tools)
+
+Specific prerequisites are listed in each tutorial series.
 
 ## Support
 
 For issues or questions, please refer to the main project documentation or contact the **TESA** support team.
+
